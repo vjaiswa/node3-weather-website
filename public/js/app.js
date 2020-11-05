@@ -25,7 +25,7 @@ const weatherForm = document.getElementById('weatherform')
             if(data.error){
                 messageOne.textContent = data.error
             }else{
-                messageOne.textContent = "Temprature is "+data.forecast+" degree celcious in "+data.location
+                messageOne.textContent = "Temprature indeed is "+data.forecast+" degree celcious in "+data.location
             }
         })
     })
